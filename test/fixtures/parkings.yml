@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  parking_1: MyString
+  parking_2: MyString
+  parking_3: MyString
+  all_parking_spots: 1
+  ev_spots: 1
+
+two:
+  parking_1: MyString
+  parking_2: MyString
+  parking_3: MyString
+  all_parking_spots: 1
+  ev_spots: 1

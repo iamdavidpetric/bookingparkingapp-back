@@ -1,0 +1,3 @@
+class AuthenticationsController < UnauthenticationsController
+    
+end
