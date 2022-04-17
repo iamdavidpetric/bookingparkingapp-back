@@ -18,13 +18,13 @@ end
     
 [
     {
-        name:"Mihai Viteazu", city:"Cluj-Napoca", description:"sdhfjea2131", regular_spots:144, ev_spots:4
+        name:"Mihai Viteazu", city:"Cluj-Napoca", description:"sdhfjea2131", regular_spots:144, ev_spots:4, image_link:"https://i.guim.co.uk/img/media/ccc826cd2961f5dc64b3e1283ac4224eab46a77f/0_383_5746_3448/master/5746.jpg?width=1020&quality=85&auto=format&fit=max&s=968f9b9234aadb3f5bc5e7bc289fa7ca"
     },
     {
-        name:"Avram Iancy", city:"Brasov", description:"orice322432", regular_spots:132, ev_spots:1
+        name:"Avram Iancu", city:"Brasov", description:"orice322432", regular_spots:132, ev_spots:1, image_link:"https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/10/brasov-min.jpg"
     },
     {
-        name:"Centru-Umbrelute", city:"Timisoara", description:"orice122232", regular_spots:890, ev_spots:9
+        name:"Centru-Umbrelute", city:"Timisoara", description:"orice122232", regular_spots:890, ev_spots:9, image_link:"https://www.romaniajournal.ro/wp-content/uploads/2015/09/twa_blogpic_timisoara-4415.jpg"
     }
 ].each do |parking|
 
@@ -33,6 +33,7 @@ end
         tapped_parking.city=parking[:city]
         tapped_parking.regular_spots=parking[:regular_spots]
         tapped_parking.ev_spots=parking[:ev_spots]
+        tapped_parking.image_link=parking[:image_link]
         tapped_parking.save
     end
 end
