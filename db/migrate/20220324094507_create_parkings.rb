@@ -7,6 +7,9 @@ class CreateParkings < ActiveRecord::Migration[7.0]
       t.integer :regular_spots
       t.integer :ev_spots
       t.string :image_link
+      t.float :coordinates,array:true, default:[]
+      t.float :zoom,array:true, default:[]
+
 
       t.timestamps
     end
